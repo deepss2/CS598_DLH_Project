@@ -29,6 +29,9 @@ pip install <package_name>==<version> [--force-reinstall]
 # Data download instruction
 We are using MIMIC-III dataset (Johnson, A., Pollard, T., & Mark, R. (2019). MIMIC-III Clinical Database Demo (version 1.4). PhysioNet. https://doi.org/10.13026/C2HM2Q.)
 
+* Follow the instruction provided here: https://mimic.mit.edu/docs/gettingstarted/
+* You need to become credential user given the sensitivity of MIMIC-III data, once you have done the steps listed above you can go to https://physionet.org/content/mimiciii/1.4/ to download the file containing clinical notes (https://mimic.mit.edu/docs/iii/tables/noteevents/).
+
 # Preprocess
 * Since all the code assumes that that the MIMIC-III data will be stored in MIMIC-III.csv, you can either rename your file or update the python file to match your data path.
 * Download the annotation.csv which is labeled data.
