@@ -15,7 +15,7 @@ https://github.com/sebastianGehrmann/phenotyping
 * Processor: 2.2 GHz 6-Core Intel Core i7
 
 ## Python dependency to run code
-* Python 3.8.8 - ``````
+* Python 3.8.8
 * pytorch 2.0.0
 * gensim 3.8.3
 * pandas 1.2.4
