@@ -44,7 +44,7 @@ This will dump the learnt word2vec embedding for the token in `mimiciii_word2vec
 ```
 python3.8 baseline.py
 ```
-It will output all the result in `baseline/all_class.txt`.
+It will output all the result in `baseline/all_class.txt` including various n-gram width.
 
 ## CNN model
 ```
@@ -60,3 +60,17 @@ python3.8 LSTM.py
 ```
 * It will output the result in `lstm_result/<phenotype_class>.txt`.
 * There are two models in the file `LSTMMaxPoolModel` & `LSTMModel`, you can change the `model = <model_name>` in `train_model_for_phenotype`.
+
+# Table of Result
+Phenotypes | N-Gram Best | CNN Width 1 | CNN Width 1-2
+------------ | ------------ | ------------ | ------------
+Advanced.Cancer | 91 | 93 | 96
+Advanced.Heart.Disease | 87 | 90 | 93
+Advanced.Lung.Disease | 90 | 80 | 86
+Alcohol.Abuse | 85 | 90 | 93
+Chronic.Neurological.Dystrophies | 70 | 76 | 79
+Chronic.Pain.Fibromyalgia | 71 | 72 | 76
+Depression | 79 | 93 | 95
+Obesity | 75 | 74 | 84
+Other.Substance.Abuse | 83 | 87 | 88
+Schizophrenia.and.other.Psychiatric.Disorders | 75 | 90 | 89
