@@ -27,7 +27,7 @@ def clean_str(string):
     string = re.sub(r"\s{2,}", " ", string)
     return string.strip()  # .lower() word2vec is case sensitive
 
-df = pd.read_csv('./NOTEEVENTS-2.csv')
+df = pd.read_csv('./MIMIC-III.csv')
 df = df[df.category == 'Discharge summary']
 # tokenizer = StanfordTokenizer()
 # df = df.head(1000)
