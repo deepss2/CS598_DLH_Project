@@ -57,7 +57,7 @@ python3.8 CNN_model.py
 * You can run different width by changing passing the desired conv_width value to method `train_model_for_phenotype`.
 * There are two models in the file `CNNModelDropPostPool` & `CNNModelPoolPostDrop`, you can change the `model = <model_name>` in `train_model_for_phenotype`.
 
-## CNN model
+## LSTM model
 ```
 python3.8 LSTM.py
 ```
