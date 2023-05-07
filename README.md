@@ -64,6 +64,9 @@ python3.8 LSTM.py
 * It will output the result in `lstm_result/<phenotype_class>.txt`.
 * There are two models in the file `LSTMMaxPoolModel` & `LSTMModel`, you can change the `model = <model_name>` in `train_model_for_phenotype`.
 
+## Pretrained models
+You can download the pretrained embedding from the [Google drive](https://drive.google.com/file/d/1ANATL85zoVVoOnTQ5VFvOpYY9-Z102Xg/view)
+
 # Table of Result
 Phenotypes | N-Gram Best | CNN Width 1 | CNN Width 1-2
 ------------ | ------------ | ------------ | ------------
