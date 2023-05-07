@@ -80,3 +80,5 @@ Depression | 79 | 93 | 95
 Obesity | 75 | 74 | 84
 Other.Substance.Abuse | 83 | 87 | 88
 Schizophrenia.and.other.Psychiatric.Disorders | 75 | 90 | 89
+
+You can find detail results [here](https://docs.google.com/spreadsheets/d/15OKni5N1pO_TxUj0ew4BjbJtHmwTb3PABAouMLUuS6g/edit).
